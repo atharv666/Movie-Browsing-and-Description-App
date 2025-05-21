@@ -22,8 +22,8 @@ class _HomeState extends State<Home> {
   List trendingmovies = [];
   List topratedmovies = [];
   List tvs = []; //popular tv shows
-  final apikey = 'dd7ec1619a272eb9c182ae70b077d074';
-  final readaccesstoken = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZDdlYzE2MTlhMjcyZWI5YzE4MmFlNzBiMDc3ZDA3NCIsIm5iZiI6MTczNjU5NDEyNC42NjcsInN1YiI6IjY3ODI1MmNjMmIyOWE5MThkMDRlYTdmYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.IWfdApr1ss4WJQ1qfFDWTwKpYcMMytBoxVXUeQckxVU';
+  final apikey = 'your api key';
+  final readaccesstoken = 'your access token';
   loadmovies()async{
     TMDB tmdbwithcustomlogs = TMDB(
       ApiKeys(apikey, readaccesstoken),
